@@ -2,6 +2,7 @@
 import java.awt.Point;
 import java.sql.Connection;
 import java.util.ArrayList;
+import javax.swing.JFrame;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -15,7 +16,7 @@ import java.util.ArrayList;
  */
 public class AppCirculo {
     public static void main(String[] args) {
-        Circulo circulo = new Circulo(new Point(20, 10));
+        /**
         ConectionDB conex = new ConectionDB();
         Connection con = conex.getConnection();
         
@@ -29,7 +30,17 @@ public class AppCirculo {
         for (Circulo c : cs){
             System.out.println(c);
         }
+        */
+        
+        
+        VentaCirculo miventana=new VentaCirculo("proba");
+        miventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
+    
+    
+    
+        
+        
 }
 
 
