@@ -29,7 +29,19 @@ public class Lenzo extends JPanel{
         return debuxo;
     }
     
-    public 
+    public void setDebuxo(Debuxo debuxo){
+        this.debuxo=debuxo;
+    }
     
+    public void setCor(Color cor){
+        debuxo.setCor(cor);
     
 }
+    public Color getCor(){
+        return debuxo.getCor();
+    }
+    
+}
+
+
+
