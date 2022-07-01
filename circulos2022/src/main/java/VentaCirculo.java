@@ -21,9 +21,9 @@ public class VentaCirculo extends JFrame implements WindowListener {
         
         setTitle(titulo);
         setSize(400,550);
-        setVisible(true);
-        PanelCirculo mipanel= new PanelCirculo();
+        PanelCirculo mipanel = new PanelCirculo();
         add(mipanel);
+        setVisible(true);
         
     }
 

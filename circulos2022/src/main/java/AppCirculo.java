@@ -35,6 +35,7 @@ public class AppCirculo {
         
         VentaCirculo miventana=new VentaCirculo("proba");
         miventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
     }
     
     
